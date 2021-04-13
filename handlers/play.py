@@ -85,7 +85,7 @@ async def play(client: Client, message_: Message):
         m = await client.send_photo(
         chat_id=message_.chat.id,
         photo="https://telegra.ph/file/bfd3e51f44415da8875f3.jpg",
-        caption=f"Playing Your song Via  [✯𝗩𝗖𝗣𝗹𝗮𝘆✯](https://t.me/TeLeTiPsOfficialOnTopicChat).",
+        caption=f"Playing Your song Via  [✯𝗩𝗖𝗣𝗹𝗮𝘆✯](https://t.me/stranger_of_telegram).",
          ) 
         tgcalls.pytgcalls.join_group_call(message_.chat.id, file_path)
 
@@ -129,7 +129,7 @@ async def deezer(client: Client, message_: Message):
     m = await client.send_photo(
         chat_id=message_.chat.id,
         photo="final.png",
-        caption=f"Playing [{title}]({url}) Via [Deezer](https://t.me/TeLeTiPsOfficialOnTopicChat)."
+        caption=f"Playing [{title}]({url}) Via [Deezer](https://t.me/stranger_of_telegram)."
     ) 
     os.remove("final.png")
 # -----------------------------------------------------Jiosaavn-----------------------------------------------------------------
@@ -174,7 +174,7 @@ async def jiosaavn(client: Client, message_: Message):
     await res.delete()
     m = await client.send_photo(
         chat_id=message_.chat.id,
-        caption=f"Playing {sname} Via [Jiosaavn](https://t.me/TeLeTiPsOfficialOnTopicChat)",
+        caption=f"Playing {sname} Via [Jiosaavn](https://t.me/stranger_of_telegram)",
         photo="final.png",
     )
     os.remove("final.png")
@@ -226,7 +226,7 @@ async def ytp(client: Client, message_: Message):
     res.delete
     m = await client.send_photo(
         chat_id=message_.chat.id,
-        caption=f"Playing `{query}` Via [YouTube](https://t.me/TeLeTiPsOfficialOnTopicChat)",
+        caption=f"Playing `{query}` Via [YouTube](https://t.me/stranger_of_telegram)",
         photo="final.png",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("Watch on youtube", url=link)]]
