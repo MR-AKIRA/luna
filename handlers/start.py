@@ -35,7 +35,7 @@ Use the buttons below to know more about me.
                 ],
                 [
                     InlineKeyboardButton(
-                        "Join Channel", url="https://t.me/Love_Birds_Official"
+                        "✨JOIN CHANNEL", url="https://t.me/Love_Birds_Official"
                     )
                 ]
             ]
