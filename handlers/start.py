@@ -13,7 +13,7 @@ async def start_(client: Client, message: Message):
         f"""<b>Hello {message.from_user.first_name}!
 I am 𝙻𝚄𝙽𝙰 VC Music Player, play music in your Telegram groups.
  ❤
-Join our support group @Forever_Status_And_Music_Chat.
+Join our status group @Forever_Status_And_Music_Chat.
 Use the buttons below to know more about me.
  </b>""",
       
