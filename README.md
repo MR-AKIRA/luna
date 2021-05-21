@@ -20,7 +20,7 @@ The easiest way to deploy this Bot
 Follow this if you are not running on heroku
 
 ```sh
-$ git clone https://github.com/sangramghangale/VCPlayerBot
+$ git clone https://github.com/Aparichithan/luna_vc
 $ cd Telegram_VC_Bot
 $ pip3 install -U pip
 $ pip3 install -U -r requirements.txt
@@ -33,9 +33,9 @@ $ python3 main.py
 ```
 
 
-Get STRING_NAME from here:
 
-[![GenerateString](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://replit.com/@QueenArzoo/VCPlayBot)
+
+
 
 ### Mandatory Vars.
 
@@ -70,9 +70,9 @@ Get STRING_NAME from here:
 - FFmpeg
 - Python 3.7+
 
-## Note
 
-1. If you want any help you can ask [here](https://t.me/TeLeTiPsOfficialOnTopicChat)
+
+
 
 
 ### Docker
