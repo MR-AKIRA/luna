@@ -12,3 +12,6 @@ aiohttp
 aiofiles
 wget
 python-arq
+tgintegration
+requests
+psutil
